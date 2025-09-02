@@ -1,0 +1,69 @@
+<!--HTML structure-->
+
+ <!--declares the document as an html file-->
+<!DOCTYPE html>
+
+<!-- Root element of the webpage -->
+<html>
+    <!--contains metadata and links to external resources-->
+    <head>
+         <!--sets the title of the page -->
+        <title> HTML Website</title>
+        <!--links an external css file named style.css to apply styples to the page-->
+        <link rel = "stylesheet" href = "style.css">
+        <!-- Links a Google Font (Orbitron) to be used on the page -->
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <!-- Links a Google Font (Roboto) to be used on the page -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+     </head>
+
+            <!--  the body contains all the visible content -->
+            <body>
+                <!-- Navigation bar -->
+                <nav>
+                    <ul>
+                         <!-- Navigation links to different sections of the page -->
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Main heading of the page -->
+                <h1> Pomodoro Timer Application </h1>
+                <!-- A paragraph element with an ID "Timer" to display the timer -->
+                <p id="timer">timer</p>
+
+                 <!-- Apple SVG centered -->
+
+                <!-- A container to hold the apple SVG -->
+                <div class="apple-container">
+                <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <!-- Red circle representing the apple -->
+                <circle cx="100" cy="100" r="80" fill="red" />
+                <!-- Green line representing the apple stem -->
+                <line x1="100" y1="30" x2="100" y2="10" stroke="green" stroke-width="8" />
+                </svg>
+                </div>
+
+                <!-- Container for the buttons -->
+                <div class = "button-container">
+                <!-- Start button -->
+                <button class="button button1">Start</button>
+                 <!-- Pause button -->
+                <button class="button button2">Pause</button>
+                <!-- Stop button -->
+                <button class="button button3">Stop</button>
+                
+                </div>
+                 
+                <!-- Links an external JavaScript file named script.js -->
+                <script src="script.js"></script>
+                    
+
+
+        </body>
+</html><!-- Closes the root element of the webpage -->
+    
